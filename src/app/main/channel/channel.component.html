@@ -1,0 +1,61 @@
+<div class="channel_area">
+  <ngx-slick-carousel class="carousel"
+                      #slickModal="slick-carousel"
+                      [config]="slideConfig">
+      <div ngxSlickItem  class="slide">
+        <a
+           (click)="clickPanel('hy')"
+           data-gamename="hyrou"
+           data-gamecode="33"
+           data-gametype="poker">
+            <div class="channel" style="width: 100%;text-align:center;">
+                <img src="/assets/images/games/hyrou.png" alt="하이로우"  width="200px" style="margin:auto;">
+            </div>
+        </a>
+      </div>
+      <div ngxSlickItem  class="slide">
+        <a
+           (click)="clickPanel('hy')"
+            data-gamename="hyrou"
+            data-gamecode="33"
+            data-gametype="poker">
+            <div class="channel" style="width: 100%;text-align:center;">
+                <img src="/assets/images/games/hyrou.png" alt="하이로우"  width="200px" style="margin:auto;">
+            </div>
+        </a>
+      </div>
+      <div ngxSlickItem  class="slide">
+        <a
+           (click)="clickPanel('hy')"
+           data-gamename="7poker"
+           data-gamecode="0" data-gametype="poker">
+            <div class="channel" style="width: 100%;text-align:center;">
+                <img src="/assets/images/games/7poker.png" alt="7포커" width="200px" style="margin:auto;">
+            </div>
+        </a>
+      </div>
+      <div ngxSlickItem  class="slide">
+        <a
+           (click)="clickPanel('hy')"
+           data-gamename="hola"
+           data-gamecode="61"
+           data-gametype="poker">
+            <div class="channel"
+                 style="width: 100%;text-align:center;">
+                <img src="/assets/images/games/hola.png" alt="홀라" width="200px" style="margin:auto;">
+            </div>
+        </a>
+      </div>
+      <div ngxSlickItem  class="slide">
+        <a
+           (click)="clickPanel('hy')"
+           data-gamename=""
+           data-gamecode="42"
+           data-gametype="poker">
+            <div class="channel" style="width: 100%;text-align:center;">
+                <img src="/assets/images/games/soon.png" alt="Comming" width="200px" style="margin:auto;">
+            </div>
+        </a>
+      </div>
+    </ngx-slick-carousel>
+</div>
